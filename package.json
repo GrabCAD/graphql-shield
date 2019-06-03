@@ -1,7 +1,7 @@
 {
-  "name": "graphql-shield",
+  "name": "grabcad-graphql-shield",
   "description": "GraphQL Server permissions as another layer of abstraction!",
-  "version": "0.0.0-semantic-release",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "author": "Matic Zavadlal <matic.zavadlal@gmail.com>",
@@ -18,7 +18,7 @@
     "prerelease": "npm-run-all test",
     "pretest": "npm-run-all clean compile",
     "release": "semantic-release",
-    "test": "NODE_ENV=test jest"
+    "test": "npx cross-env NODE_ENV=test jest"
   },
   "dependencies": {
     "@types/yup": "0.26.13",
@@ -35,6 +35,7 @@
     "apollo-server": "2.6.1",
     "codecov": "3.5.0",
     "coveralls": "3.0.3",
+    "cross-env": "^5.2.0",
     "docz": "0.13.7",
     "docz-theme-default": "0.13.7",
     "graphql": "14.1.1",
@@ -92,5 +93,8 @@
     "type": "opencollective",
     "url": "https://opencollective.com/graphql-shield",
     "logo": "https://opencollective.com/graphql-shield/logo.txt"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory6.grabcad.net/artifactory/api/npm/npm-local/"
   }
 }

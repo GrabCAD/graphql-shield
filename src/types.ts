@@ -29,8 +29,9 @@ export declare class ILogicRule {
   resolve(parent, args, ctx, info, options: IOptions): Promise<IRuleResult>
 }
 
+export type ICacheFunction = (parent: any, args: any) => string
 export type IFragment = string
-export type ICache = 'strict' | 'contextual' | 'no_cache'
+export type ICache = 'strict' | 'contextual' | 'no_cache' | ICacheFunction
 export type IRuleResult = boolean | string | Error
 export type IRuleFunction = (
   parent?: any,
@@ -46,6 +47,7 @@ export type ICacheContructorOptions =
   | 'contextual'
   | 'no_cache'
   | boolean
+  | ICacheFunction
 
 export interface IRuleConstructorOptions {
   cache?: ICacheContructorOptions
