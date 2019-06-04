@@ -161,6 +161,9 @@ export class Rule implements IRule {
       case 'no_cache': {
         return `${this.name}-${Math.random()}`
       }
+      default: {
+        return `${this.name}-${this.cache(parent, args)}`
+      }
     }
   }
 }
