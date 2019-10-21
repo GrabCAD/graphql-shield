@@ -1,7 +1,7 @@
 {
   "name": "grabcad-graphql-shield",
   "description": "GraphQL Server permissions as another layer of abstraction!",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "author": "Matic Zavadlal <matic.zavadlal@gmail.com>",
