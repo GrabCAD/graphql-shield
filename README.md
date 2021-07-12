@@ -1,6 +1,4 @@
-<p align="center" style="font-weight: bold; font-size: 5em; color: red; margin-bottom: 0;">DEPRECATED</p>
-<p align="center" style="font-weight: bold; font-size: 3em">Use <a href="https://github.com/maticzav/graphql-shield">graphql-shield</a> instead</p>
-<hr />
+# DEPRECATED - USE [graphql-shield](https://github.com/maticzav/graphql-shield) INSTEAD
 
 <p align="center"><img src="https://imgur.com/DX1VKtn.png" width="150" /></p>
 
