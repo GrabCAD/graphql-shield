@@ -1,3 +1,5 @@
+# DEPRECATED - USE [graphql-shield](https://github.com/maticzav/graphql-shield) INSTEAD
+
 <p align="center"><img src="https://imgur.com/DX1VKtn.png" width="150" /></p>
 
 # graphql-shield
